@@ -203,5 +203,6 @@ ale to mogą być dwa obiekty na heapie, a operator == porównuje referencje,
 dlatego wszystko, co ma w sobie klasę, czyli nie int (mały) porównujemy metodami, czyli np. equals
 s1.equals(s2)
 
+ijou desu!
 
 
