@@ -193,6 +193,15 @@ Y.GetPesel()
 
 @override- lubimy jak nam inteliJ podpowiada to brać!
 
+String s,s1
+if (s==s1)
+ **tak nie robimy**
+
+s= ala
+s1=ala
+ale to mogą być dwa obiekty na heapie, a operator == porównuje referencje,
+dlatego wszystko, co ma w sobie klasę, czyli nie int (mały) porównujemy metodami, czyli np. equals
+s1.equals(s2)
 
 
 
