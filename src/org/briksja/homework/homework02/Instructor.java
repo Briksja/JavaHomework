@@ -1,4 +1,4 @@
-package org.wojcieszko.homework.homework02;
+package org.briksja.homework.homework02;
 
 public class Instructor extends Person {
 

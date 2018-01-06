@@ -1,4 +1,4 @@
-package org.wojcieszko;
+package org.briksja;
 
 public class Main {
 
