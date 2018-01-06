@@ -30,7 +30,7 @@ not
 
 np.` if  ((x==7) and (y==8)){ z= 500}`
 
-**switch case**
+## **switch case**
 ```
 switch (a) {
 case 0:
@@ -63,7 +63,7 @@ o tak zrob domyslnie;
  czasem case jest lepszy od if, jeśli mamy te samą zmienną,
  a if gdy mamy inne zmienne if is preferable
 
-**operator trójargumentowy**
+## **operator trójargumentowy**
  ```
 b= a==3? 5:19;
     if (a==3){
@@ -81,7 +81,7 @@ prosty ternary jest prosty
 ale ternary z ternary w środku nawet dla mnie jest skomplikowany
  O_O.
 
-**pętla for**
+## **pętla for**
 ```
 for (int i=0; i<10;++i){
 System.out.println(i);
@@ -105,7 +105,7 @@ ta petla przeleci się po wsztstkich elementach tablicy
 
 robienie pętli w pętli nie jest grzechem.
 
-**iterator** - wskazuje na miejsce w tabeli
+## **iterator** - wskazuje na miejsce w tabeli
 
 ```
 int i=0;
@@ -141,3 +141,58 @@ System.out.printline(I)
 }
 
 continue nie wydrukuje 3 i pójdzie dalej
+
+# **Praca domowa**
+ S Single responsibility
+ O
+ L
+ I
+ D
+
+  klasa może miec 6-8 metod, no naście z getterami/setterami
+  klasa nie może być za tłusta.
+Taka klasa, która ma 400 metod to tzw. "klasa boska", wszystko można.
+
+ Prefer composition over inheritance
+
+ zatem w konstrukutorze przekazujemy mu aspekty
+ Man (Person Person, Student Student, Employee Employee, Instructor Instructor)
+
+ P= new Person (Ada, Banaszczyk);
+ S =  new Student (Faculty, year,...);
+ E =  null;
+ I =  null;
+  Man (P, S, Null, Null)
+
+```
+Class Man
+  Person person;
+  Man (Person person, ...)
+  Get Person(){
+  return Person}
+  ```
+  ```
+  GetName(){
+  return Person.getName()
+  }
+  ```
+  to jest delegacja
+
+# Interface
+```
+
+public interface IPerson {
+        abstract String GetName ();
+        abstract Long GetPesel();
+        abstract void SetName(String s);
+        abstract void SetPesel(Long p);
+```
+
+IPeson y = new Person (Ada, Banaszczyk, ...)
+Y.GetPesel()
+
+@override- lubimy jak nam inteliJ podpowiada to brać!
+
+
+
+

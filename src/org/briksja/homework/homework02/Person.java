@@ -35,4 +35,10 @@ public class Person {
     public void setSurName(String surName) {
         this.surName = surName;
     }
+
+    class Person implements IPerson;
+
+    }
+
+
 }
