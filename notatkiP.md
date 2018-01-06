@@ -1,0 +1,1 @@
+I teraz będę notować

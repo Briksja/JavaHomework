@@ -47,9 +47,10 @@ A teraz
 zrobie breaka  
 w akapicie
 i dalej w nim 
+> quote
+>>qouote zwei
+>>>quote san
 
-
-   
 
 #teraz ponotujmy dalej
 
@@ -74,3 +75,4 @@ public static void main(String[] args) {
 
 ```
 
+klasa `Person` jest zła
