@@ -54,11 +54,23 @@ i dalej w nim
 #teraz ponotujmy dalej
 
 |co|kto|kiedy
-|----|----|----
+|----|:----:|----:
 |coś|ja|jutro
+|innos|ktoś|kiedyś
 
- coś
- 
+ link do googla [google](htttp://google.com)
+
+! [obrazek](https://www.ldoceonline.com/media/english/illustration/blackboard.jpg?version=1.1.47)
+
+```Java
+public static void main(String[] args) {
+        Person kolo = new Person("90123098765", "Roger", "Odrzutowiec");
+//        kolo.setFirstName("Roger");
+//        kolo.setSurName("Odrzutowiec");
+//        kolo.setPesel("90123098765");
+
+        System.out.println(kolo.getSurName());
 
 
+```
 
